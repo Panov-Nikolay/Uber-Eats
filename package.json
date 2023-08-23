@@ -1,14 +1,15 @@
 {
 	"name": "uber-eats",
 	"private": true,
-	"homepage": "https://nikvall.github.io/Uber-Eats",
+	"homepage": "https://Panov-Nikolay.github.io/Uber-Eats",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"@material-ui/core": "^4.12.4",
