@@ -1,8 +1,8 @@
 .Header {
 	position: fixed;
-	top:0px;
+	top: 0px;
 	left: 0px;
-	min-width: 100vw;
+	min-width: 100%;
 	box-shadow: 0 3px 5px rgb(177, 177, 177);
 	background-color: white;
 	z-index: 100;
@@ -19,7 +19,6 @@
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;
-	
 }
 .login img {
 	scale: 0.8;
@@ -34,14 +33,14 @@
 	border-radius: 5px;
 	padding: 5px;
 	cursor: pointer;
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 .bascket:hover {
 	opacity: 0.8;
 }
 @media screen and (max-width: 576px) {
-	.bascket{
-			display: none;
+	.bascket {
+		display: none;
 	}
 }
 .Header.withBascket {
