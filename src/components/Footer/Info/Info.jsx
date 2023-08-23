@@ -28,13 +28,13 @@ export const Info = () => {
 
 				<div className={styles.socials}>
 					<Link>
-						<img src='/public/assets/facebook.png' alt='facebook' />
+						<img src='/assets/facebook.png' alt='facebook' />
 					</Link>
 					<Link>
-						<img src='/public/assets/twitter.png' alt='twitter' />
+						<img src='/assets/twitter.png' alt='twitter' />
 					</Link>
 					<Link>
-						<img src='/public/assets/instagram.png' alt='instagram' />
+						<img src='/assets/instagram.png' alt='instagram' />
 					</Link>
 				</div>
 			</div>

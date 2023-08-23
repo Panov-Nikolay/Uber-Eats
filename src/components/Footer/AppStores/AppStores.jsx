@@ -6,10 +6,10 @@ export const AppStores = () => {
 	return (
 		<div className={styles.AppStores}>
 			<Link>
-				<img src='/public/assets/appstore.png' alt='appstore' />
+				<img src='/assets/appstore.png' alt='appstore' />
 			</Link>
 			<Link>
-				<img src='/public/assets/googleplay.png' alt='googleplay' />
+				<img src='/assets/googleplay.png' alt='googleplay' />
 			</Link>
 		</div>
 	)

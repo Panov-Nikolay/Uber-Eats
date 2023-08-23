@@ -9,7 +9,7 @@ import { Up } from './Up/Up'
 export const Footer = () => {
 	return (
 		<div className={styles.Footer}>
-			<Logo src='/public/assets/white-logo.png' />
+			<Logo src='/assets/white-logo.png' />
 			<hr />
 			<Info />
 			<hr />

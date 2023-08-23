@@ -12,7 +12,7 @@ export const Up = () => {
 	return (
 		<img
 			className={styles.Up}
-			src='/public/assets/btn-up.png'
+			src='/assets/btn-up.png'
 			alt='up'
 			onClick={scrollTop}
 		/>
