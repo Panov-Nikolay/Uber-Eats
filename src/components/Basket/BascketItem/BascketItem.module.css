@@ -1,0 +1,37 @@
+.BascketItem {
+	display: flex;
+	padding: 10px;
+	width: 100%;
+	justify-content: space-between;
+	background: rgba(2, 192, 2, 0.2);
+	border-radius: 5px;
+	min-width: max-content;
+}
+.BascketItem.del {
+	background-color: rgba(192, 2, 2, 0.2);
+}
+.BascketItem img {
+	width: 150px;
+}
+.BascketItem > div {
+	display: flex;
+	gap: 30px;
+}
+.BascketItem > div > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.BascketItem > div > div > div {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	gap: 20px
+}
+.BascketItem .delete {
+	scale: 2;
+	margin: 10px;
+}
+.BascketItem .delete:hover {
+	scale: 2.2;
+}

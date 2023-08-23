@@ -1,0 +1,8 @@
+.Up {
+	position: fixed;
+	bottom: 24px;
+	right: 16px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}

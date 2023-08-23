@@ -1,0 +1,43 @@
+.RestaurantPreview {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 3px 16px #F2F2F2;
+	width: max-content;	
+	background-color: white;
+}
+h1 {
+	margin: 0;
+	margin-bottom: 20px;
+}
+.description {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.readyTime {
+	background-color: black;
+	padding: 8px 16px;
+	color: white;
+	border-radius: 25px;
+}
+.text {
+	margin: 10px 0;
+}
+@media screen and (max-width: 768px) {
+	.RestaurantPreview {
+		align-items: center;
+		padding: 20px 40px;
+	}
+	.RestaurantPreview h1 {
+		font-size: 24px;
+	}
+	.description {
+		flex-direction: column;
+		gap: 0
+	}
+}

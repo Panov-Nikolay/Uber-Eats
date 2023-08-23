@@ -1,0 +1,40 @@
+.DishCard {
+	display: flex;
+	justify-content: space-between;
+	transition: all 0.1s ease-in-out;
+	padding: 5px;
+	border-radius: 5px;
+}
+.DishCard:hover {
+	box-shadow: 0 0 8px rgb(206, 206, 206);
+	transform: scale(1.02);
+}
+.info {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	padding: 16px;
+	width: 100%;
+}
+.price {
+	display: flex;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 21px;
+	color: #1D1D1D;
+	align-items: center;
+	justify-content: space-between;
+}
+.addtoBascketButton {
+	scale: 1.5 ;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.addtoBascketButton:hover {
+	scale: 1.8;
+}
+.DishCard img {
+	width: 170px;
+	height: 100%;
+	border-radius: 5px;
+}

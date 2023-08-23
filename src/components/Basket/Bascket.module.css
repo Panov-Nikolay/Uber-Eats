@@ -1,0 +1,27 @@
+.Bascket {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	padding-top: 20px;
+	gap: 10px;
+}
+.Bascket h1 {
+	text-align: center;
+	opacity: 0.5;
+}
+.Bascket .empty {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Bascket .img {
+	scale: 3;
+	opacity: 0.5;
+}
+.Bascket .buttons {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+	padding-top: 15px;
+}

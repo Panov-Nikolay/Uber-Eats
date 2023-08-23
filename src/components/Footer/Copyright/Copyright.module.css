@@ -1,0 +1,11 @@
+.Copyright {
+	display: flex;
+	justify-content: space-between;
+}
+.Copyright p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	color: white;
+}

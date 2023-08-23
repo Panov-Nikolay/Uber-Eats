@@ -1,0 +1,47 @@
+.Info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.hashtag {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+	transition: all 0.3s ease-in;
+	color: white;
+	cursor: pointer;
+}
+.hashtag:hover {
+	opacity: .6;
+}
+.select {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	padding: 10px;
+	background-color: #3B3B3B;
+	width: 100%;
+	justify-content:space-between;
+	width: fit-content;
+}
+.select select {
+	background: #3B3B3B;
+	border: none;
+	color: white;
+}
+.socials {
+	display: flex;
+	gap: 10px;
+}
+.socials a {
+	display: flex;
+	transition: all .3s ease-in-out;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+}
+.socials a:hover {
+	background-color: #3B3B3B;
+}

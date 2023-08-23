@@ -1,0 +1,15 @@
+.AppStores {
+	display: flex;
+	justify-content: center;
+	gap: 30px
+}
+.AppStores img {
+	scale: .6;
+}
+.AppStores a {
+	margin: -10px -50px;
+	transition: all .3s ease-in-out;
+}
+.AppStores a:hover {
+	opacity: .8;
+}

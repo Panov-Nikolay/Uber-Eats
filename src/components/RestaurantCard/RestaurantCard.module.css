@@ -1,0 +1,23 @@
+.RestaurantCard {
+	transition: all 0.1s ease-in-out;
+	padding: 5px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.RestaurantCard img {
+	max-width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.RestaurantCard:hover {
+	box-shadow: 0 0 8px rgb(206, 206, 206);
+	transform: scale(1.02);
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.text {
+	margin: 10px 0px;
+}

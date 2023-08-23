@@ -1,0 +1,13 @@
+.Logo {
+	display: flex;
+	align-items: center;
+	transition: all .3s ease-in-out;
+}
+.Logo:hover {
+	opacity: 0.8;
+}
+
+.Logo img{
+	margin-top: 7px;
+	width: 240px;
+}

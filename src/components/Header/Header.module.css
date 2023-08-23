@@ -1,0 +1,52 @@
+.Header {
+	position: fixed;
+	top:0px;
+	left: 0px;
+	min-width: 100vw;
+	box-shadow: 0 3px 5px rgb(177, 177, 177);
+	background-color: white;
+	z-index: 100;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	max-height: 101px;
+	overflow: hidden;
+	height: auto;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	
+}
+.login img {
+	scale: 0.8;
+}
+.login {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.bascket {
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+.bascket:hover {
+	opacity: 0.8;
+}
+@media screen and (max-width: 576px) {
+	.bascket{
+			display: none;
+	}
+}
+.Header.withBascket {
+	max-height: 100vh;
+	padding-right: 5px;
+	transition: all 0.3s ease-in-out;
+	overflow-y: scroll;
+}
