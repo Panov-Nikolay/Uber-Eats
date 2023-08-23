@@ -1,4 +1,5 @@
 import React from 'react'
+import { BASE_URL } from '../../../db'
 import styles from './Up.module.css'
 
 const scrollTop = () => {
@@ -12,7 +13,7 @@ export const Up = () => {
 	return (
 		<img
 			className={styles.Up}
-			src='/assets/btn-up.png'
+			src={`${BASE_URL}/assets/btn-up.png`}
 			alt='up'
 			onClick={scrollTop}
 		/>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
+import { BASE_URL } from '../../db'
 import { logout } from '../../store/authSlice'
 import { Bascket } from '../Basket/Bascket'
 import { Logo } from '../Logo/Logo'
@@ -31,7 +32,7 @@ export const Header = () => {
 	return (
 		<div className={withBasket.join(' ')}>
 			<nav className={styles.nav}>
-				<Logo src='/uber-eats/assets/logo.png' />
+				<Logo src={`${BASE_URL}/assets/logo.png`} />
 				<div className={styles.login}>
 					{!!token ? (
 						<Button onClick={profileHandler} type='red'>
@@ -44,7 +45,7 @@ export const Header = () => {
 					)}
 
 					<div className={styles.bascket} onClick={toggleBascketHandler}>
-						<img src='/assets/basket@2x.png' />
+						<img src={`${BASE_URL}/assets/basket@2x.png`} />
 					</div>
 				</div>
 			</nav>

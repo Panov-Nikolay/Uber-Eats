@@ -1,4 +1,5 @@
 import React from 'react'
+import { BASE_URL } from '../../db'
 import { Logo } from '../Logo/Logo'
 import { AppStores } from './AppStores/AppStores'
 import { Copyright } from './Copyright/Copyright'
@@ -9,7 +10,7 @@ import { Up } from './Up/Up'
 export const Footer = () => {
 	return (
 		<div className={styles.Footer}>
-			<Logo src='/assets/white-logo.png' />
+			<Logo src={`${BASE_URL}/assets/white-logo.png`} />
 			<hr />
 			<Info />
 			<hr />

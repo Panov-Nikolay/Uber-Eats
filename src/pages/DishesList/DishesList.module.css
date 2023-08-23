@@ -9,7 +9,7 @@
 }
 .preview {
 	display: flex;
-	background-image: url('/assets/Preview.png');
+	background-image: url('/uber-eats/assets/Preview.png');
 	background-size: cover;
 	margin: 0 -28px;
 	padding: 50px 28px;

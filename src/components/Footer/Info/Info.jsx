@@ -1,6 +1,7 @@
 import React from 'react'
 import { GrLanguage } from 'react-icons/gr'
 import { Link } from 'react-router-dom'
+import { BASE_URL } from '../../../db'
 import styles from './Info.module.css'
 
 const list1 = [
@@ -28,13 +29,13 @@ export const Info = () => {
 
 				<div className={styles.socials}>
 					<Link>
-						<img src='/assets/facebook.png' alt='facebook' />
+						<img src={`${BASE_URL}/assets/facebook.png`} alt='facebook' />
 					</Link>
 					<Link>
-						<img src='/assets/twitter.png' alt='twitter' />
+						<img src={`${BASE_URL}/assets/twitter.png`} alt='twitter' />
 					</Link>
 					<Link>
-						<img src='/assets/instagram.png' alt='instagram' />
+						<img src={`${BASE_URL}/assets/instagram.png`} alt='instagram' />
 					</Link>
 				</div>
 			</div>
