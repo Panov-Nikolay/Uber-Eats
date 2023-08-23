@@ -31,7 +31,7 @@ export const Header = () => {
 	return (
 		<div className={withBasket.join(' ')}>
 			<nav className={styles.nav}>
-				<Logo src='/assets/logo.png' />
+				<Logo src='/uber-eats/assets/logo.png' />
 				<div className={styles.login}>
 					{!!token ? (
 						<Button onClick={profileHandler} type='red'>
