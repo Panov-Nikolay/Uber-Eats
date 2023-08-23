@@ -38,11 +38,6 @@
 .bascket:hover {
 	opacity: 0.8;
 }
-@media screen and (max-width: 576px) {
-	.bascket {
-		display: none;
-	}
-}
 .Header.withBascket {
 	max-height: 100vh;
 	padding-right: 5px;
