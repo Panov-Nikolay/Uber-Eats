@@ -29,6 +29,9 @@ export const Bascket = () => {
 	const payHandler = () => {
 		if (!token) {
 			navigate('/auth')
+		} else {
+			alert('Заказ успешно оплачен!')
+			dispatch(clearBascket())
 		}
 	}
 
