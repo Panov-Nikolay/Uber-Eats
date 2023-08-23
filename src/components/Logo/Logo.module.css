@@ -1,13 +1,18 @@
 .Logo {
 	display: flex;
 	align-items: center;
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 .Logo:hover {
 	opacity: 0.8;
 }
 
-.Logo img{
+.Logo img {
 	margin-top: 7px;
 	width: 240px;
+}
+@media screen and (max-width: 576px) {
+	.Logo img {
+		width: 150px;
+	}
 }

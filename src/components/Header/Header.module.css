@@ -40,7 +40,15 @@
 }
 .Header.withBascket {
 	max-height: 100vh;
-	padding-right: 5px;
+	padding-right: 20px;
 	transition: all 0.3s ease-in-out;
 	overflow-y: scroll;
+}
+@media screen and (max-width: 576px) {
+	.Header {
+		padding-right: 40px;
+	}
+	.Header.withBascket {
+		padding-right: 40px;
+	}
 }
