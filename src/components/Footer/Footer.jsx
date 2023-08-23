@@ -6,12 +6,10 @@ import styles from './Footer.module.css'
 import { Info } from './Info/Info'
 import { Up } from './Up/Up'
 
-
-
 export const Footer = () => {
 	return (
 		<div className={styles.Footer}>
-			<Logo src='/src/assets/white-logo.png'/>
+			<Logo src='/public/assets/white-logo.png' />
 			<hr />
 			<Info />
 			<hr />
@@ -20,6 +18,5 @@ export const Footer = () => {
 			<Copyright />
 			<Up />
 		</div>
-		
 	)
 }

@@ -31,7 +31,7 @@ export const Header = () => {
 	return (
 		<div className={withBasket.join(' ')}>
 			<nav className={styles.nav}>
-				<Logo src='/src/assets/logo.png' />
+				<Logo src='/public/assets/logo.png' />
 				<div className={styles.login}>
 					{!!token ? (
 						<Button onClick={profileHandler} type='red'>
@@ -44,7 +44,7 @@ export const Header = () => {
 					)}
 
 					<div className={styles.bascket} onClick={toggleBascketHandler}>
-						<img src='/src/assets/basket@2x.png' />
+						<img src='/public/assets/basket@2x.png' />
 					</div>
 				</div>
 			</nav>
