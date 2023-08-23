@@ -13,7 +13,7 @@ function App() {
 	}, [])
 	const routes = (
 		<Routes>
-			<Route path='/restaurants' Component={RestaurantsList} />
+			<Route path='/' Component={RestaurantsList} />
 			<Route path={'/restaurants/:id'} Component={DishesList} />
 			<Route path={'/auth'} Component={Auth} />
 		</Routes>

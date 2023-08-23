@@ -34,7 +34,9 @@ export const Header = () => {
 				<Logo src='/src/assets/logo.png' />
 				<div className={styles.login}>
 					{!!token ? (
-						<Button onClick={profileHandler}>Профиль</Button>
+						<Button onClick={profileHandler} type='red'>
+							Выйти
+						</Button>
 					) : (
 						<Button type='primary' onClick={loginHandler}>
 							Войти

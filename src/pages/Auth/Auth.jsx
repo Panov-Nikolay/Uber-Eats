@@ -109,7 +109,7 @@ export const Auth = () => {
 				<form onSubmit={submitHandler} className={styles.AuthForm}>
 					{renderInputs()}
 					<div className={styles.buttons}>
-						<Link to={'/restaurants'}>
+						<Link to={'/'}>
 							<Button
 								type='primary'
 								onClick={loginHandler}
