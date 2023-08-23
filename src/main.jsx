@@ -7,9 +7,9 @@ import './index.css'
 import { store } from './store/store.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Provider store={store}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </Provider>
+	<Provider store={store}>
+		<BrowserRouter basename='/uber-eats'>
+			<App />
+		</BrowserRouter>
+	</Provider>
 )

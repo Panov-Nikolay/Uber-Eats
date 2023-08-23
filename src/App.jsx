@@ -13,9 +13,9 @@ function App() {
 	}, [])
 	const routes = (
 		<Routes>
-			<Route path='/Uber-Eats/' Component={RestaurantsList} />
-			<Route path={'/Uber-Eats/restaurants/:id'} Component={DishesList} />
-			<Route path={'/Uber-Eats/auth'} Component={Auth} />
+			<Route path='/' Component={RestaurantsList} />
+			<Route path={'/restaurants/:id'} Component={DishesList} />
+			<Route path={'/auth'} Component={Auth} />
 		</Routes>
 	)
 
