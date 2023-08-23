@@ -1,7 +1,7 @@
 {
 	"name": "uber-eats",
 	"private": true,
-	"homepage": "https://Panov-Nikolay.github.io/Uber-Eats",
+	"homepage": "https://panov-nikolay.github.io/uber-eats",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
